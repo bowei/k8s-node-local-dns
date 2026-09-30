@@ -25,7 +25,7 @@ CONTAINER_BINARIES := \
     node-cache
 
 # Registry to push to.
-REGISTRY ?= us-central1-docker.pkg.dev/k8s-staging-images/dns
+REGISTRY ?= gcr.io/k8s-staging-dns
 # Default architecture to build for.
 ARCH ?= amd64
 # Image to use for building.
